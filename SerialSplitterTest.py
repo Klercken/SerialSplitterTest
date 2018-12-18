@@ -42,7 +42,7 @@ if __name__ == "main":
     # Send to serial out
     for loop in range (100):
         # Send to serial
-        serial.write(loop)
+        serialPortOut.write(loop)
 
     # Close serial out
     serialPortOut.close()
